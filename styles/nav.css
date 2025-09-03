@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li img {
+    width: 32px;
+    height: 32px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    padding: 4px 0px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    list-style: none;
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
